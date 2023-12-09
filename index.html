@@ -1,165 +1,147 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta name="authors" content="Abdelqoddous Elasri" />
     <meta name="description" content="Themes des livres" />
-    <title>TAbles</title>
+    <title>Tables</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-      .red {
-        color: yellow;
-        background-color: red;
+        .header {
+            color: white;
+            background-color: #111827;
+            padding-top: 20px;
+            padding-bottom: 25px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .word {
+            font-size: 20px;
+            margin-left: 85%;
+        }
+
+        .postitle {
+            font-size: 30px;
+            margin-left: 55%;
+            margin-top: 0;
+        }
+        .possubtitle {
+          font-size: 25px;
+          margin-left: 50%;
+          margin-top: 0;
       }
 
-      .yellow {
-        color: red;
-        background-color: yellow;
-      }
+        .link {
+            text-decoration: none;
+            color: white;
+        }
 
-      .purpul {
-        color: white;
-        background-color: purple;
-      }
+        .title {
+            color: #10b981;
+            font-size: 30px;
+            margin: 10px;
+            padding: 10px;
+        }
 
-      .white {
-        color: aliceblue;
-        background-color: green;
-      }
+        .gl {
+            color: #10b981;
+        }
 
-      .cyan {
-        background-color: blue;
-      }
+        .welcome {
+            padding-top: 40px;
+            padding-bottom: 50px;
+            margin: 0;
+            background: rgb(248, 244, 244);
+        }
 
-      .color {
-        background-color: blueviolet;
-      }
-      .header{
-        color: white;
-        background-color: #111827;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    body{
-        margin: 0px;
-        padding: 0px;
-    }
-    .word{
-        position: relative;
-        font-size: 20px;
-        left: 85%;
-      }
-    .postitle{
-      position: relative;
-      font-size: 20px;
-      left: 55%;
-    }
-    .possubtitle{
-      position: relative;
-      font-size: 20px;
-      left: 50%;
-    }
-    .link{
-        text-decoration: none;
-        color: white;
-    }
-    .title{
-        color: #10b981;
-        font-size: 30px;
-        margin: 10px;
-        padding: 10px;
-    }
-    .gl{
-        color: #10b981;
-    }
-    .welcome{
-        padding-top: 40px;
-        padding-bottom: 50px;
-        margin: 0px;
-        background: rgb(248, 244, 244);
-    }
-    .stylehr{
-        margin: 0px;
-        border-color:rgb(243, 239, 239);
-        box-sizing: 0.2px;
-    }
-    .welcome-sentece{
-      position: relative;
-      left: 85%;
-    }
-    .imagedeco{
-      position: relative;
-      left: 10%;
-      border-radius: 50% 80% / 70% 10%;
-      width: 500px;
-      height: 300px;
-    }
-    .localisation{
-      text-decoration: none;
-      color: black;
-      margin: 20px;
-      font-size: 30px;
-    }
+        .stylehr {
+            margin: 0;
+            border-color: rgb(243, 239, 239);
+            box-sizing: 0.2px;
+        }
+
+        .imagedeco {
+            border-radius: 50% 80% / 70% 10%;
+            width: 100%; /* Make the image responsive */
+            max-width: 500px;
+            height: auto;
+            margin-left: 10%;
+        }
+
+        .localisation {
+            text-decoration: none;
+            color: black;
+            margin: 20px;
+            font-size: 30px;
+        }
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="header">
         <header class="word"><a href="index.html" class="link"><i class="fa-solid fa-arrow-right-to-bracket"></i>&nbsp;&nbsp;Inscription</a></header>
     </div>
     <h3 class="title"><i class="fa-solid fa-book-atlas"></i>Bibliotheque Atlas</h3>
-    <p ><a class="localisation" href="https://www.google.com/maps/place/Biblioth%C3%A8que+Atlas+%D9%85%D9%83%D8%AA%D8%A8%D8%A9+%D8%A7%D9%84%D8%A7%D8%B7%D9%84%D8%B3%E2%80%AD/@32.6835106,-4.7465293,17z/data=!4m6!3m5!1s0xd98bf72249b01bb:0xefa628d2c34ecfc4!8m2!3d32.6835061!4d-4.7439544!16s%2Fg%2F11clmv7z8k?entry=ttu" target="_blank"><i class="fa-solid fa-map-location"></i> &nbsp;&nbsp;Localisation</a></p>
+    <p><a class="localisation" href="https://www.google.com/maps/place/Biblioth%C3%A8que+Atlas+%D9%85%D9%83%D8%AA%D8%A8%D8%A9+%D8%A7%D9%84%D8%A7%D8%B7%D9%84%D8%B3%E2%80%AD/@32.6835106,-4.7465293,17z/data=!4m6!3m5!1s0xd98bf72249b01bb:0xefa628d2c34ecfc4!8m2!3d32.6835061!4d-4.7439544!16s%2Fg%2F11clmv7z8k?entry=ttu"
+            target="_blank"><i class="fa-solid fa-map-location"></i> &nbsp;&nbsp;Localisation</a></p>
     <hr class="stylehr">
-    
+
     <div class="welcome">
         <a href="page livre.html"><img class="imagedeco" src="img/atlas.jpg" alt="bibliotheque"></a>
-        <p class="postitle" style="font-size: 30px;">Bienvenue chez <span class="gl">Bibliotheque Atlas <br></p><p class="postitle"></span>
-        <span style="font-size: 25p   x;">Votre destination ultime pour tout ce qui concerne les livre!</span></p>
+        <p class="postitle">Bienvenue chez <span class="gl">Bibliotheque Atlas</span></p>
+        <p class="possubtitle">Votre destination ultime pour tout ce qui concerne les livres!</p>
     </div>
     <hr class="stylehr">
     <div>
-      <ul>
-        <li>
-          <dl class="gl" style="font-size: 25px;">Information sur la Bibliotheque Atlas:</dl>
-          <dd><ul>
-            <li style="font-size: 20px;">La bibliothèque Atlas est spécialisée dans <strong>la vente</strong>,la <strong>location</strong>  et l'<strong>édition</strong> des livres scientifiques sous format numérique ou papier.</li>
-            <li style="font-size: 20px;">La bibliothèque dispose d'une salle multimédia pour la projection de diaporamas ou de films documentaires scientifiques ainsi que de nombreux ordinateurs.</li>
-          </ul>
-          </dd>
-        </li>
-      </ul>
+        <ul>
+            <li>
+                <dl class="gl" style="font-size: 25px;">Information sur la Bibliotheque Atlas:</dl>
+                <dd>
+                    <ul>
+                        <li style="font-size: 20px;">La bibliothèque Atlas est spécialisée dans <strong>la vente</strong>,la <strong>location</strong> et
+                            l'<strong>édition</strong> des livres scientifiques sous format numérique ou papier.</li>
+                        <li style="font-size: 20px;">La bibliothèque dispose d'une salle multimédia pour la projection de diaporamas ou de films documentaires
+                            scientifiques ainsi que de nombreux ordinateurs.</li>
+                    </ul>
+                </dd>
+            </li>
+        </ul>
     </div>
     <hr class="stylehr">
     <div class="welcome">
-      <table ALIGN="center" width="500" height="50" BORDER="3" >
-        <caption style="font-size: 20px;">Evolution de la Bibliotheque</caption>
-        <thead>
+        <table align="center" width="500" height="50" border="3">
+            <caption style="font-size: 20px;">Evolution de la Bibliotheque</caption>
+            <thead>
+                <tr>
+                    <td>Annee</td>
+                    <td>Abonnes</td>
+                </tr>
+            </thead>
             <tr>
-                <td>Annee</td>
-                <td>Abonnes</td>
+                <td>2000</td>
+                <td>150</td>
             </tr>
-        </thead>
-        <tr>
-            <td>2000</td>
-            <td>150</td>
-        </tr>
-        <tr>
-            <td>2004</td>
-            <td>220</td>
-        </tr>
-        <tr>
-            <td>2008</td>
-            <td>290</td>
-        </tr>
-        <tr>
-            <td>2012</td>
-            <td>320</td>
-        </tr>
-        <tr>
-            <td>2015</td>
-            <td>360</td>
-        </tr>
-    </table>
-  </div>
-  <hr class="stylehr">
-  </body>
+            <tr>
+                <td>2004</td>
+                <td>220</td>
+            </tr>
+            <tr>
+                <td>2008</td>
+                <td>290</td>
+            </tr>
+            <tr>
+                <td>2012</td>
+                <td>320</td>
+            </tr>
+            <tr>
+                <td>2015</td>
+                <td>360</td>
+            </tr>
+        </table>
+    </div>
+    <hr class="stylehr">
+</body>
 </html>
