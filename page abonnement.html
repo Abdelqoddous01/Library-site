@@ -1,50 +1,121 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="authors" content="Abdelqoddous Elasri">
-        <meta name="description" content="Page abonnement">
-        <title>Page abonnement</title>
-        <style>
-            .bgcolor{
-                background-color: gray;
-            }
-            .border td{
-                border: 1px solid black;
-            }
-        
-        </style>
-    </head>
-    <body>
-        <h1  ALIGN="center">Page abonnement</h1>
-        <hr><hr>
-        <table ALIGN="center" >
-            <thead>
-                <tr>
-                    <th>abbab</th>
-                    <th>jjjjjj</th>
-                </tr>
-            </thead>
-            <tbody class="bgcolor border" >
-                <tr>
-                    <td>
-                      <ul>
-                        <li>2 photos</li>
-                        <li>Photocopie de la CIN</li>
-                        <li>Certificat de scolarite si disponible</li>
-                        <li>Frais d'abonnement de 300 Dh l'annee</li>
-                      </ul>
-                    </td>
-                    <td>
-                      <ul>
-                        <li>Restituer les livres empruntes dans un bon etat</li>
-                        <li>Ne pas ecrire sur les pages du livre</li>
-                        <li>Ne pas faire des ratures</li>
-                        <li>Ne pas dechirer des pages du livre</li>
-                        <li>Respecter les delais d'emprunt</li>
-                      </ul>
-                    </td>
-                  </tr>
-            </tbody>
-        </table>
-    </body>
+<html lang="en">
+<head>
+    <meta name="authors" content="Abdelqoddous Elasri" />
+    <meta name="description" content="Themes des livres" />
+    <title>Page Abonnement</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .header {
+            color: white;
+            background-color: #111827;
+            padding-top: 20px;
+            padding-bottom: 25px;
+        }
+        .title{
+          font-size: 20px;
+        }
+        body{
+          margin: 0%;
+          padding: 0%;
+        }
+        .pos{
+          margin-left:20% ;
+          margin-right: 10%;
+        }
+        .link{
+          text-decoration-line: none;
+          color: white;
+        }
+        .gl {
+          font-size: 30px;
+          color: #10b981;
+          margin-left: 0.3cm;
+        }
+        table {
+          width: 70%;
+          margin: auto;
+          border-collapse: collapse;
+          border: 2 pxsolid #3498db;
+          margin-bottom: 20px;
+      }
+
+      th, td {
+          border: 2px solid #3498db;
+          padding: 20px;
+          text-align: center;
+      }
+
+      ins b {
+          text-decoration: underline;
+      }
+
+      tbody.bgcolor {
+          background-color: #ecf0f1;
+      }
+
+      ul {
+          list-style-type:circle;
+          padding: 10px;
+          margin: 0;
+      }
+
+      ul li {
+          margin-bottom: 8px;
+          margin-left: 2px;
+      }
+      caption{
+        font-size: 30px;
+        color: rgb(71, 71, 240);
+        margin-top: 2px;
+        margin-bottom: 5px;
+      }
+    </style>
+</head>
+
+<body>
+  <nav class="header title">
+    <a class="link" href="index.html"><i style="margin-left:6%;"><i class="fa-solid fa-house"></i> Page d'acceuille</i></a>
+    <a class="link" href="page livre.html"><i style="margin-left:6.1%"><i class="fa-solid fa-book-open"></i> Page Livre</i></a>
+    <a href="page abonnement.html" class="link"><i style="margin-left:8.2%;"><i class="fa-solid fa-user-plus"></i> Abonnement</i></a>
+    <a href="page_repartition_horaire.html" class="link"><i style="margin-left:8.3%;"><i class="fa-regular fa-calendar-days"> </i> Horaire de travaille</i></a>
+    <i style="margin-left:8.4%"><i class="fa-solid fa-arrow-right-to-bracket"></i> Inscription</i> 
+  </nav>
+  <div>
+    <h3 class="title gl"><i class="fa-solid fa-book-atlas"> </i> Bibliotheque Atlas</h3>
+  </div>
+  <hr>
+  <div>
+    <table>
+      <caption>Modalite d'abonnement</caption>
+      <thead>
+          <tr>
+              <th><ins><b>Dossier d'abonnement :</b></ins></th>
+              <th><ins><b>Charte de la bibliothèque :</b></ins></th>
+          </tr>
+      </thead>
+      <tbody class="bgcolor">
+          <tr>
+              <td>
+                  <ul>
+                      <li>2 photos</li>
+                      <li>Photocopie de la CIN</li>
+                      <li>Certificat de scolarite si disponible</li>
+                      <li>Frais d'abonnement de 300 Dh l'annee</li>
+                  </ul>
+              </td>
+              <td>
+                  <ul>
+                      <li>Restituer les livres empruntes dans un bon etat</li>
+                      <li>Ne pas ecrire sur les pages du livre</li>
+                      <li>Ne pas faire des ratures</li>
+                      <li>Ne pas dechirer des pages du livre</li>
+                      <li>Respecter les delais d'emprunt</li>
+                  </ul>
+              </td>
+          </tr>
+      </tbody>
+  </table>
+  </div>
+</body>
 </html>

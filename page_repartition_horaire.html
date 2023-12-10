@@ -1,148 +1,202 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="authors" content="Abdelqoddous Elasri">
-        <meta name="description" content="Horaire">
-        <title>Horaire bib atlas</title>
-
-    </head>
-
-    <style>.color{
-    background-color: blueviolet;   
-    }
-    </style>
-    <body>
-        <style>.title{
-            border-radius: 20px;
-            border-color: green;
-            width: 400px;
-            height: 100px;
-            background-color: green;
-            ;}
-        </style>
-        <style>.menu{
-            border-radius: 30px;
-            border-color: grey;
-            width: 300px;
-            height: 50px;
-            background-color: yellowgreen;
-            cursor: pointer;
-        }
-        .menu:hover{
-            opacity: 0.8;
-        }
-        .menu:active{
-            background-color: green;
-        }
-    </style>
-    <h1 ALIGN="center" id="menu"><button class="title">HORAIRE DE TRAVAILLE</button></h1>
-        <hr>
-        <center>
-
-            <button class="menu"><a href="project.html">Page d'acceuil</a></button>
-            <button class="menu"><a href="page livre.html">Page livre </a></button>
-            <button class="menu"><a href="page_repartition_horaire.html">Page Répartition Horaire </a></button>
-            <button class="menu"><a href="#">Page abonnement</a></button>
-            <button class="menu"><a href="#">Page Inscription</a></button>
-        </center>   
-        <hr><hr>
-        <style>.red{
-            color: yellow;
-            background-color: red;}
-        </style>
-        <style>.yellow{
-            color:red;
-            background-color: yellow;}
-        </style>
-        <style>.purpul{
+<html lang="en">
+<head>
+    <meta name="authors" content="Abdelqoddous Elasri" />
+    <meta name="description" content="Themes des livres" />
+    <title>Horaire</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .header {
             color: white;
-            background-color: purple;}
-        </style>
-        <style>.white{
-            color: aliceblue;
-            background-color: green;}
-        </style>
-        <style>.cyan{
-            background-color:blue;}
+            background-color: #111827;
+            padding-top: 20px;
+            padding-bottom: 25px;
+        }
+        .title{
+          font-size: 20px;
+        }
+        body{
+          margin: 0%;
+          padding: 0%;
+        }
+        .pos{
+          margin-left:20% ;
+          margin-right: 10%;
+        }
+        .link{
+          text-decoration-line: none;
+          color: white;
+        }
+        .gl {
+          font-size: 30px;
+          color: #10b981;
+          margin-left: 0.3cm;
+        }
+        .red{
+          color: yellow;
+          background-color: red;}
+      .yellow{
+          color:red;
+          background-color: yellow;}
+      .purpul{
+          color: white;
+          background-color: purple;}
+      .white{
+          color: aliceblue;
+          background-color: green;}
+      .cyan{
+          background-color:blue;}
+      table {
+          width: 80%;
+          margin: auto;
+          border-collapse: collapse;
+      }
 
-        </style>
-        <table ALIGN="center" BORDER="3">
-            <caption >REPARTITION HORAIRE DURANT UNE SEMAINE</caption> 
-            <thead>
-                <td>JOURS/HEURES</td>
-                <td>8H-9H</td>
-                <td>9H-10H</td>
-                <td>10H-11H</td>
-                <td>11H-12H</td>
-                <td>12H-13H</td>
-                <td>13H-14H</td>
-                <td>14H-15H</td>
-                <td>15H-16H</td>
-                <td>16H-17H</td>
-                <td>17H-18H</td>
-            </thead>
-            <tr>
-                <td>Lundi</td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="2" class="red">Group1</td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="2" BGCOLOR="blue"></td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="2" class="yellow">Group4</td>
-                <td BGCOLOR="gray"></td>
-            </tr>
-            <tr>
-                <td>Mardi</td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="2" class="yellow">Group2</td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="2" class="cyan"></td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="2" class="red">Group5</td>
-                <td BGCOLOR="gray"></td>
-            </tr>
-            <tr>
-                <td BGCOLOR="">Mecredi</td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="2" class="red">Group1</td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="2" class="cyan" >PAUSE<br>DEJEUNE</td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="3" class="white" >PROJETCTION FILM <br>SCIENTIFIQUE</td>
-            </tr>
-            <tr>
-                <td>Jeudi</td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="2" class="yellow">Group2</td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="2" class="cyan"></td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="2" class="yellow">Group6</td>
-                <td BGCOLOR="gray"></td>
-            </tr>
-            <tr>
-                <td>Vendredi</td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="2" class="red">Group1</td>
-                <td BGCOLOR="gray"></td>
-                <td colspan="2" BGCOLOR="blue"></td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="3" class="white">APRES MIDI <br> ENFANT</td>
-                </tr>
-            <tr>
-                <td>Samedi</td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="2" class="yellow">Group2</td>
-                <td BGCOLOR="gray"></td>
-                <td   colspan="2" BGCOLOR="blue"></td>
-                <td BGCOLOR="gray"></td>
-                <td ALIGN="center" colspan="3" class="white">INVENTAIRE FIN <br>DE SEMAINE </td>
-            </tr>
-            <tr>
-                <td >Dimanche</td>
-                <td colspan="10" ALIGN="center" class="purpul">Feriee</td>
-            </tr>
-        </table>       
-    </body>
-    
+      th, td {
+          border: 1px solid black;
+          padding: 10px;
+          text-align: center;
+      }
+
+      caption {
+          font-size: 1.5em;
+          margin-bottom: 10px;
+      }
+
+      th {
+          background-color: #3498db;
+          color: white;
+      }
+
+      td {
+          background-color: #ecf0f1;
+      }
+
+      td.gray {
+          background-color: #bdc3c7;
+      }
+
+      td.red {
+          background-color: #e74c3c;
+          color: white;
+      }
+
+      td.blue {
+          background-color: #3498db;
+          color: white;
+      }
+
+      td.yellow {
+          background-color: #f39c12;
+          color: white;
+      }
+
+      td.cyan {
+          background-color: #16a085;
+          color: white;
+      }
+
+      td.white {
+          background-color: #ecf0f1;
+          color: #2c3e50;
+      }
+
+      td.purpul {
+          background-color: #8e44ad;
+          color: white;
+      }
+    </style>
+</head>
+
+<body>
+  <nav class="header title">
+    <a class="link" href="index.html"><i style="margin-left:6%;"><i class="fa-solid fa-house"></i> Page d'acceuille</i></a>
+    <a class="link" href="page livre.html"><i style="margin-left:6.1%"><i class="fa-solid fa-book-open"></i> Page Livre</i></a>
+    <a href="page abonnement.html" class="link"><i style="margin-left:8.2%;"><i class="fa-solid fa-user-plus"></i> Abonnement</i></a>
+    <a href="page_repartition_horaire.html" class="link"><i style="margin-left:8.3%;"><i class="fa-regular fa-calendar-days"> </i> Horaire de travaille</i></a>
+    <i style="margin-left:8.4%"><i class="fa-solid fa-arrow-right-to-bracket"></i> Inscription</i> 
+  </nav>
+  <div>
+    <h3 class="title gl"><i class="fa-solid fa-book-atlas"></i> Bibliotheque Atlas</h3>
+  </div>
+  <hr>
+  <div>
+    <table>
+      <caption>REPARTITION HORAIRE DURANT UNE SEMAINE</caption>
+      <thead>
+          <th>JOURS/HEURES</th>
+          <th>8H-9H</th>
+          <th>9H-10H</th>
+          <th>10H-11H</th>
+          <th>11H-12H</th>
+          <th>12H-13H</th>
+          <th>13H-14H</th>
+          <th>14H-15H</th>
+          <th>15H-16H</th>
+          <th>16H-17H</th>
+          <th>17H-18H</th>
+      </thead>
+      <tr>
+          <td class="gray">Lundi</td>
+          <td class="gray"></td>
+          <td colspan="2" class="red">Group1</td>
+          <td class="gray"></td>
+          <td colspan="2" class="blue"></td>
+          <td class="gray"></td>
+          <td colspan="2" class="yellow">Group4</td>
+          <td class="gray"></td>
+      </tr>
+      <tr>
+          <td class="gray">Mardi</td>
+          <td class="gray"></td>
+          <td colspan="2" class="yellow">Group2</td>
+          <td class="gray"></td>
+          <td colspan="2" class="cyan"></td>
+          <td class="gray"></td>
+          <td colspan="2" class="red">Group5</td>
+          <td class="gray"></td>
+      </tr>
+      <tr>
+          <td class="gray">Mecredi</td>
+          <td class="gray"></td>
+          <td colspan="2" class="red">Group1</td>
+          <td class="gray"></td>
+          <td colspan="2" class="cyan">PAUSE<br>DEJEUNE</td>
+          <td class="gray"></td>
+          <td colspan="3" class="white">PROJECTION FILM<br>SCIENTIFIQUE</td>
+      </tr>
+      <tr>
+          <td class="gray">Jeudi</td>
+          <td class="gray"></td>
+          <td colspan="2" class="yellow">Group2</td>
+          <td class="gray"></td>
+          <td colspan="2" class="cyan"></td>
+          <td class="gray"></td>
+          <td colspan="2" class="yellow">Group6</td>
+          <td class="gray"></td>
+      </tr>
+      <tr>
+          <td class="gray">Vendredi</td>
+          <td class="gray"></td>
+          <td colspan="2" class="red">Group1</td>
+          <td class="gray"></td>
+          <td colspan="2" class="blue"></td>
+          <td class="gray"></td>
+          <td colspan="3" class="white">APRES MIDI<br>ENFANT</td>
+      </tr>
+      <tr>
+          <td class="gray">Samedi</td>
+          <td class="gray"></td>
+          <td colspan="2" class="yellow">Group2</td>
+          <td class="gray"></td>
+          <td colspan="2" class="blue"></td>
+          <td class="gray"></td>
+          <td colspan="3" class="white">INVENTAIRE FIN<br>DE SEMAINE</td>
+      </tr>
+      <tr>
+          <td class="purpul" colspan="11">Dimanche - Feriee</td>
+      </tr>
+  </table>
+  </div>
+</body>
 </html>

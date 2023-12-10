@@ -1,73 +1,158 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="authors" content="Abdelqoddous Elasri">
-        <meta name="description" content="Themes des livres">
-        <title>Page livre</title>
-    </head>
-    
-    <body>
-        <style>.menu{
-            border-radius: 30px;
-            width: 300px;
-            height: 50px;
-            background-color: yellowgreen;    
-        }</style>
-        <center>
-            <h1 ALIGN="center" class="menu">Themes des livres</h1>
-            <hr>
-            <button class="menu"><a href="project.html">Page d'accuille</a></button>
-            <button class="menu"><a href="page livre.html">Page livre </a></button>
-            <button class="menu"><a href="page_repartition_horaire.html">Page Répartition Horaire </a></button>
-            <button class="menu"><a href="#">Page abonnement</a></button>
-            <button class="menu"><a href="#">Page Inscription</a></button>
-        </center>
-        <hr>
-        <h5><mark>Les themes et les livres peuvent s'ajouter soyez a jour !</mark></h5>
-        <br>
-        <h2 ALIGN="center"><ins>&gt;Les thèmes de livres disponibles :</ins></h2>
-        <br>
-        <ol >
-            <hr>
-            <li><ins><strong>Les Math.</strong></ins></li>
+<html lang="en">
+<head>
+    <meta name="authors" content="Abdelqoddous Elasri" />
+    <meta name="description" content="Themes des livres" />
+    <title>page livre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .header {
+            color: white;
+            background-color: #111827;
+            padding-top: 20px;
+            padding-bottom: 25px;
+        }
+        .title{
+          font-size: 20px;
+        }
+        body{
+          margin: 0;
+          padding: 0;
+          background: rgb(248, 244, 244);
+        }
+        .pos{
+          margin-left:20% ;
+          margin-right: 10%;
+        }
+        .link{
+          text-decoration-line: none;
+          color: white;
+        }
+        .gl {
+          font-size: 30px;
+          color: #10b981;
+          margin-left: 0.3cm;}
+          dl{
+            font-size: 30px;
+            margin-top: 30px;
+          }
+          dd{
+            font-size: 20px;
+          }
+          .img{
+            border-radius: 10px 40px;
+            width: 330px;
+            height: 220px;
+          }
+    </style>
+</head>
+
+<body>
+  <nav class="header title">
+    <a class="link" href="index.html"><i style="margin-left:6%;"><i class="fa-solid fa-house"></i> Page d'acceuille</i></a>
+    <a class="link" href="page livre.html"><i style="margin-left:6.1%"><i class="fa-solid fa-book-open"></i> Page Livre</i></a>
+    <a href="page abonnement.html" class="link"><i style="margin-left:8.2%;"><i class="fa-solid fa-user-plus"></i> Abonnement</i></a>
+   <a href="page_repartition_horaire.html" class="link"><i style="margin-left:8.3%;"><i class="fa-regular fa-calendar-days"> </i> Horaire de travaille</i></a>
+    <i style="margin-left:8.4%"><i class="fa-solid fa-arrow-right-to-bracket"></i> Inscription</i> 
+  </nav>
+  <div>
+    <h3 class="title gl"><i class="fa-solid fa-book-atlas"> </i> Bibliotheque Atlas</h3>
+  </div>
+  <hr>  
+  <div class="body">
+    <div>
+      <ul>
+        <li>
+          <dl>
+            <li>Mathématiques</li>
             <ul>
-                <br>
-                <li>Algèbre</li>
-                <br>
-                <li>Analyse</li>
-                <br>
-                <li>Géométrie</li>
-                <br>
+              <i>
+                <li><dd>Algèbre</dd><img class="img" src="img/math_page_livre.jpg" alt=""></li>
+                <li><dd>Analyse</dd></li>
+                <li><dd>Géométrie</dd></li>
+              </i>
             </ul>
-            <img src="img/math_page_livre.jpg" alt="Math pic" width="1000" height="300">
-            <hr>
-            <li><ins><strong>L’informatique.</strong></li>
+          </dl>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+
+  <div class="body">
+    <div>
+      <ul>
+        <li>
+          <dl>
+            <li>L'Informatique</li>
             <ul>
-                <li>Agorithme</li>
-                <li>Proframmation</li>
-                <li>Réseaux</li>
-                <li>Base de données</li>
+              <i>
+                <li><dd>Algorithme</dd></li>
+                <li><dd>Programmation</dd><img class="img" style="width: 330px;" src="img/inforamatique_page_livre.jpg" alt=""></li>
+                <li><dd>Réseaux </dd></li>
+                <li><dd>Base de données</dd></li>
+              </i>
             </ul>
-            <img src="img/inforamatique_page_livre.jpg" alt="informatique pic" width="1000" height="300">
-            <li>La chimie </li>
+          </dl>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="body">
+    <div>
+      <ul>
+        <li>
+          <dl>
+            <li>Chimie</li>
             <ul>
-                <li>Chimie minérale</li>
-                <li>Chimie analytique</li>
+              <li><dd>Chimie minérale</dd><img class="img" style="width: 330px;" src="img/chimie_page_livre.jpg" alt=""></li>
+              <li><dd>Chimie analytique</dd></li>
             </ul>
-            <img src="img/chimie_page_livre.jpg" alt="chimie pix" width="1000" height="300">
-            <li>La physique </li>
+          </dl>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="body">
+    <div>
+      <ul>
+        <li>
+          <dl>
+            <li>La physique</li>
             <ul>
-                <li>Electronique</li>
-                <li>Electricité</li>
-                <li>Magnétisme</li>
+              <nav>
+                <li><dd>Electronique</dd><img class="img" width="320px" src="img/pexels-pixabay-68173.jpg" alt=""></li>
+                <li><dd>Electricite</dd></li>
+                <li><dd>Magnétisme</dd></li>
+              </nav>
             </ul>
-            <img src="img/physique_page_livre.jpg" alt="" width="1000" height="300">
-            <li>Les Sciences repartis en science de la terre et de l’espace</li>
+          </dl>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+
+  <div class="body">
+    <div>
+      <ul>
+        <li>
+          <dl>
+            <li>Sciences</li>
             <ul>
-                <li>science de la terre</li>
-                <li>science de l’espace</li>
+              <li><dd>Science de la terre</dd><img class="img" width="330px" src="img/pexels-pixabay-45239.jpg" alt=""></li>
+              <li><dd>Science de l'espace</dd></li>
             </ul>
-            <img src="" alt="">
-        </ul>
-    </body>
+          </dl>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
 </html>
