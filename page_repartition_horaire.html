@@ -105,16 +105,45 @@
           background-color: #8e44ad;
           color: white;
       }
+      a{
+        color: #ffff;
+        display: inline-block;
+        padding: 15px 20px;
+        position: relative;
+        text-decoration: none;
+        font: 20px;
+    }
+    
+    a:after{
+        background:none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: 4px block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background:#db4b09;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s ;
+        width: 0;
+    }
+    
+    a:hover:after{
+        width:100%;
+        left: 0%;
+    }
+    nav a + a {
+      margin-left: 90px;
+  }
     </style>
 </head>
 
 <body>
   <nav class="header title">
-    <a class="link" href="index.html"><i style="margin-left:6%;"><i class="fa-solid fa-house"></i> Page d'acceuille</i></a>
-    <a class="link" href="page livre.html"><i style="margin-left:6.1%"><i class="fa-solid fa-book-open"></i> Page Livre</i></a>
-    <a href="page abonnement.html" class="link"><i style="margin-left:8.2%;"><i class="fa-solid fa-user-plus"></i> Abonnement</i></a>
-    <a href="page_repartition_horaire.html" class="link"><i style="margin-left:8.3%;"><i class="fa-regular fa-calendar-days"> </i> Horaire de travaille</i></a>
-    <i style="margin-left:8.4%"><i class="fa-solid fa-arrow-right-to-bracket"></i> Inscription</i> 
+    <a class="" href="index.html"><i ><i class="fa-solid fa-house"></i> Page d'acceuille</i></a>
+    <a class="" href="page livre.html"><i ><i class="fa-solid fa-book-open"></i> Page Livre</i></a>
+    <a href="page abonnement.html" class=""><i ><i class="fa-solid fa-user-plus"></i> Abonnement</i></a>
+    <a href="page_repartition_horaire.html" class=""><i ><i class="fa-regular fa-calendar-days"> </i> Horaire de travaille</i></a>
+    <a href=""><i><i class="fa-solid fa-arrow-right-to-bracket"></i> Inscription</i> </a> 
   </nav>
   <div>
     <h3 class="title gl"><i class="fa-solid fa-book-atlas"></i> Bibliotheque Atlas</h3>
